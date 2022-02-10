@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" >
-		<title>Startup 4.0 - Material Design</title>
+		<title>MetaGym</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="i/favicon.png" type="image/x-icon">
 		<!-- Google Fonts -->
@@ -16,43 +16,32 @@
 		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
 		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+		<script src="https://kit.fontawesome.com/748b268d38.js" crossorigin="anonymous"></script>
 		<!-- Startup 3 CSS (Styles for all blocks) -->
 		<link href="css/style.css" rel="stylesheet" />
 		<!-- jQuery 3.3.1 -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	</head> 
 	<body>
-<!-- Navigation Mobile type 1 -->
+		<!-- Navigation Mobile type 1 -->
+		<a href="#" class="open_menu bg-light radius_full"><i class="fas fa-bars lh-40"></i></a>
+		<div class="navigation_mobile bg-dark type1">
+			<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
+			<div class="px-40 pt-60 pb-60 inner">
+				<div class="logo color-white mb-30">
+					<img src="i/metagym_logo.png" />
+				</div>
+				<div><a href="#about" class="f-heading f-22 link color-white mb-20">About</a></div>	
+				<div><a href="#prototype" class="f-heading f-22 link color-white mb-20">Prototype</a></div>	
+				<div><a href="#process" class="f-heading f-22 link color-white mb-20">Process</a></div>	
+				<div><a href="#video" class="f-heading f-22 link color-white mb-20">Video</a></div>	
+				<div><a href="#team" class="f-heading f-22 link color-white mb-20">Team</a></div>		
+				<div class="mt-50 f-14 light color-white op-3 copy">CS 147 Winter 2022</div>
+			</div>
+		</div>	
 
-<a href="#" class="open_menu bg-light radius_full"><i class="fas fa-bars lh-40"></i></a>
-<div class="navigation_mobile bg-dark type1">
-	<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
-	<div class="px-40 pt-60 pb-60 inner">
-		<div class="logo color-white mb-30">
-			<img src="i/metagym_logo.png" />
-		</div>
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Home</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Tour</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Mobile Apps</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Pricing</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Development</a></div>	
-		<div><a href="#" class="link color-white op-3 mb-15">Help</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">F.A.Q.</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">Support</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">About Us</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">Blog</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">Careers</a></div>
-						
-		<div class="socials mt-40">
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-twitter"></i></a>
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-facebook"></i></a>
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-google-plus-g"></i></a>
-		</div>
-		
-		<div class="mt-50 f-14 light color-white op-3 copy">&copy; 2020 Designmodo. All rights reserved.</div>
-	</div>
-</div>		<!-- Header 1 -->
+		<!-- Header 1 -->
 		<header class="pt-195 pb-110 bg-light header_1">
 			<nav class="header_menu_1 pt-30 pb-30 mt-30">
 				<div class="container px-xl-0">
@@ -62,14 +51,11 @@
 						</div>
 						<div class="col-lg-9 text-center d-flex justify-content-end">
 							<a href="#about" class="link color-heading mx-15">About</a>
-							<a href="#process" class="link color-heading mx-15">Process</a>
 							<a href="#prototype" class="link color-heading mx-15">Prototype</a>
+							<a href="#process" class="link color-heading mx-15">Process</a>
+							<a href="#video" class="link color-heading mx-15">Video</a>
 							<a href="#team" class="link color-heading mx-15">Team</a>
 						</div>
-						<!-- <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-end align-items-center">
-							<a href="#" class="link mr-20 color-heading">Sign In</a>
-							<a href="#" class="btn sm action-1">Sign Up</a>
-						</div> -->
 					</div>
 				</div>
 			</nav>
@@ -82,24 +68,24 @@
 				</div>
 				<div class="mt-80 text-center buttons">
 					<div>
-						<a href="#" class="btn lg action-1">Purchase Now for $199</a>
+						<a href="#prototype" class="btn lg action-1">Try MetaGym Now</a>
 					</div>
 					<div>
-						<a href="#" class="link mt-15 action-1 f-18 medium">Learn More</a>
+						<a href="#about" class="link mt-15 action-1 f-18 medium">Learn More</a>
 					</div>
 				</div>
 			</div>
 		</header>
 
 		<!-- Feature 34 -->
-		<section class="pt-100 pb-120 bg-light feature_34">
+		<section id="about" class="pt-100 pb-120 bg-light feature_34">
 			<div class="container px-xl-0">
 				<div class="row align-items-center text-center text-sm-left">
 					<div class="col-xl-1">
 					</div>
 					<div class="col-lg-5 col-sm-6">
-						<h2 class="mb-20">Everything in One Place</h2>
-						<div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">Your app landing page is a perfect template for showcase your application or services in a smart way.
+						<h2 class="mb-20">Find your motivation</h2>
+						<div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">Lots of people find motivation and joy in working out with others and getting feedback from instructors. However, it can be difficult to find consistent work out classes and regular exercise partners that match your skill level if you are busy or travel regularly. MetaGym is a virtual space where people can hop into classes led by expert instructors and build community by working out with others anytime and anywhere. 
 						</div>
 					</div>
 					<div class="col-sm-1">
@@ -110,20 +96,20 @@
 				</div>
 				<div class="mt-95 row justify-content-center text-center blocks">
 					<div class="mb-50 mb-md-0 col-md-4 col-sm-8">
-						<i class="far fa-copy f-40"></i>
-						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Responsive design</div>
+						<i class="fa-solid fa-medal f-40"></i>
+						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Receive Expert Instruction</div>
 						<div class="color-heading text-adaptive">You build your website without worrying about mobile-ready optimization.
 						</div>
 					</div>
 					<div class="mb-50 mb-md-0 col-md-4 col-sm-8">
-						<i class="far fa-clone f-40"></i>
-						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Modern Styles</div>
+						<i class="fa-solid fa-people-carry-box f-40"></i>
+						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Build Motivation and Community</div>
 						<div class="color-heading text-adaptive">Styles functionality will help you to customize your website quickly.
 						</div>
 					</div>
 					<div class="mb-50 mb-md-0 col-md-4 col-sm-8">
-						<i class="far fa-hand-rock f-40"></i>
-						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Download the Design</div>
+						<i class="fa-solid fa-layer-group f-40"></i>
+						<div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Browse and Plan Classes</div>
 						<div class="color-heading text-adaptive">Export your website which includes all your images, text, and styles directly to your PC.
 						</div>
 					</div>
@@ -131,57 +117,108 @@
 			</div>
 		</section>
 
-		<!-- Application 2 -->
-		<section class="pt-65 pb-65 bg-light application_2">
+		<!-- Prototype -->
+		<section id="prototype" class="pt-65 pb-65 bg-light application_2">
 			<div class="container px-xl-0">
 				<div class="row justify-content-center justify-content-md-between align-items-center">
 					<div class="mb-15 mb-md-0 col-12 col-md-5 col-xl-6 d-flex justify-content-center">
 						<img src="i/application_2_img_1.png" srcset="i/application_2_img_1@2x.png 2x" alt="" class="img-fluid application_2_left_img" />
 					</div>
 					<div class="col-md-7 col-xl-6">
-						<h2 class="col-lg-11 color-main">To Be Proud by Your Application</h2>
-						<div class="mt-25 col-lg-9 color-heading f-18 text-adaptive">Progressively enable synergistic infrastructures through extensive innovation.
+						<h2 class="col-lg-11 color-main">Try It Out</h2>
+						<div class="mt-25 col-lg-9 color-heading f-18 text-adaptive">Check out our medium fidelity and high fidelity prototypes
 						</div>
-						<div class="mt-95 row">
-							<div class="col-6 col-lg-4 pb-25 with_borders">
-								<img src="i/application_2_img_2.png" srcset="i/application_2_img_2@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Ready to Present</div>
+						<div class="mt-40 text-center buttons">
+							<div>
+								<a href="#" class="btn lg border-action-1 btn-block">Medium Fidelity Prototype</a>
 							</div>
-							<div class="col-6 col-lg-4 pb-25 with_borders">
-								<img src="i/application_2_img_3.png" srcset="i/application_2_img_3@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Crops and Layers</div>
+							<div>
+								<a href="#" class="btn mt-15 lg border-action-1 btn-block">High Fidelity Prototype</a>
 							</div>
-							<div class="col-6 col-lg-4 pb-25 with_borders">
-								<img src="i/application_2_img_4.png" srcset="i/application_2_img_4@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Free Google Fonts</div>
-							</div>
-							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
-								<img src="i/application_2_img_5.png" srcset="i/application_2_img_5@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Based on Bootstrap 3</div>
-							</div>
-							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
-								<img src="i/application_2_img_6.png" srcset="i/application_2_img_6@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">HTML5, CSS3, LESS</div>
-							</div>
-							<div class="col-6 col-lg-4 pb-25 pt-35 with_borders">
-								<img src="i/application_2_img_7.png" srcset="i/application_2_img_7@2x.png 2x" alt="" class="pl-15" />
-								<div class="mt-15 col-xl-11 color-main f-14 bold sp-20 text-uppercase">Powerful Components</div>
+							<div>
+								<a href="#" class="link mt-15 action-1 f-18 medium">Instructions</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+			
 
-		<!-- Content 24 -->
-		<section class="pt-100 pb-95 bg-light content_24">
+		<!-- Process -->
+		<section id="process" class="pt-105 pb-70 bg-light text-center content_30">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<h2 class="col-lg-9 small">Design Process</h2>
+					<div class="col-lg-8 col-md-10 mt-15 mb-50 f-18 medium op-7 color-heading text-adaptive">					
+						<div>View our step by step process in developing our solution</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Needfinding</div>
+							<a href="i/assignment1.pdf" class="link mx-20"><i class="fas fa-file-pdf"></i> Presentation PDF</a>
+							<a href="i/assignment1.pptx" class="link mx-20"><i class="fas fa-file-powerpoint"></i> Presentation PPT</a>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Point of View & Experience Prototypes</div>
+							<a href="i/assignment2.pdf" class="link mx-20"><i class="fas fa-file-pdf"></i> Presentation PDF</a>
+							<a href="i/assignment2.pptx" class="link mx-20"><i class="fas fa-file-powerpoint"></i> Presentation PPT</a>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Concept Video</div>
+							<a href="i/assignment4.pdf" class="link mx-20"><i class="fas fa-file-pdf"></i> Presentation PDF</a>
+							<a href="i/assignment4.pptx" class="link mx-20"><i class="fas fa-file-powerpoint"></i> Presentation PPT</a>
+							<a href="i/assignment4.mp4" class="link mx-20"><i class="fas fa-file-video"></i> Concept Video Download</a>
+							<a href="https://www.youtube.com/watch?v=vMUDdf75XcY" class="link mx-20"><i class="fa-brands fa-youtube"></i> YouTube Video Link</a>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Low-Fidelity Prototype & Test</div>
+							<a href="i/assignment5report.pdf" class="link mx-20"><i class="fas fa-file-pdf"></i> Report PDF</a>
+							<a href="i/assignment5.pdf" class="link mx-20"><i class="fas fa-file-pdf"></i> Presentation PDF</a>
+							<a href="i/assignment5.pptx" class="link mx-20"><i class="fas fa-file-powerpoint"></i> Presentation PPT</a>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Medium-fi Prototype</div>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Group Heuristic Evaluation</div>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Hi-fidelity Prototype</div>
+						</div>
+					</div>
+					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
+						<div class="d-flex flex-column align-items-center block h-220 mw-270 mx-auto radius10">
+							<div class="mt-40 mb-20 f-16 semibold text-uppercase sp-20 title mx-10">Poster & Pitch Slide</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- YouTube Video -->
+		<section id="video" class="pt-100 pb-95 bg-light content_24">
 			<div class="container px-xl-0">
 				<div class="row justify-content-center">
 					<div class="col-xl-10 col-lg-11">
 						<div class="relative poster">
-							<div class="mt-20 ml-20 absolute bg-light f-14 lh-30 color-red text-uppercase semibold sp-20 px-10 radius10 tip">Production</div>
-							<img src="i/content_24_video_poster.jpg" srcset="i/content_24_video_poster@2x.jpg 2x" alt="" class="img-fluid radius10" />
-							<a href="https://www.youtube.com/embed/RcTFVcoibI0?rel=0&showinfo=0" class="play red" data-fancybox="content_24_fancybox">
+							<div class="mt-20 ml-20 absolute bg-light f-14 lh-30 color-red text-uppercase semibold sp-20 px-10 radius10 tip">Concept Video</div>
+							<img src="i/video_thumbnail.jpeg" class="img-fluid radius10" />
+							<a href="https://www.youtube.com/watch?v=vMUDdf75XcY" class="play red" data-fancybox="content_24_fancybox">
 								<i class="fas fa-play"></i>
 							</a>
 						</div>
@@ -190,250 +227,51 @@
 			</div>
 		</section>
 
-		<!-- Feature 22 -->
-		<section class="pt-100 pb-100 bg-light feature_22">
+		<!-- Team -->
+		<section id="team" class="pt-105 pb-70 bg-light text-center content_30">
 			<div class="container px-xl-0">
-				<div class="row flex-row-reverse justify-content-between">
-					<div class="col-lg-6 col-md-7">
-						<h2 class="small">Your Application Builder Created by Designers and Developers</h2>
-						<div class="mt-25 mb-75 f-22 color-heading text-adaptive description">We created an application that helps designers, developers, and companies create Bootstrap website themes. Go live fast right now.
-						</div>
-						<div class="mb-40 mb-md-0 d-sm-flex align-items-center buttons">
-							<a href="#" class="btn mb-20 mb-sm-0 mr-15 action-1">Get Started</a>
-							<div class="d-flex links">
-								<a href="#" class="link color-gray f-32 mx-20">
-									<i class="fab fa-android"></i>
-								</a>
-								<a href="#" class="link color-gray f-32 mx-20">
-									<i class="fab fa-windows"></i>
-								</a>
-								<a href="#" class="link color-gray f-32 mx-20">
-									<i class="fab fa-slack-hash"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-1 d-none d-lg-block">
-					</div>
-					<div class="col-xl-4 col-lg-5 col-md-4">
-						<div class="row">
-							<div class="mb-80 col-md-12 col-sm-6 d-lg-flex align-items-start block">
-								<div class="w-70 flex-shrink-0 icon">
-									<i class="far fa-comment-dots color-gray f-50"></i>
-								</div>
-								<div class="inner">
-									<div class="mt-10 mb-20 f-22 text-adaptive title">Online Editor</div>
-									<div class="color-heading text-adaptive">Edit page content online using the Startup editor. We’re always improving the editor.
-									</div>
-								</div>
-							</div>
-							<div class="mb-80 col-md-12 col-sm-6 d-lg-flex align-items-start block">
-								<div class="w-70 flex-shrink-0 icon">
-									<i class="fab fa-html5 color-gray f-50"></i>
-								</div>
-								<div class="inner">
-									<div class="mt-10 mb-20 f-22 text-adaptive title">Unlimited Styles</div>
-									<div class="color-heading text-adaptive">Select the desired style of your website or generate your own look of your Bootstrap theme.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-1 d-none d-xl-block">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Testimonial 2 -->
-		<section class="pt-75 pb-75 bg-light testimonial_2">
-			<div class="container px-xl-0 text-center">
-				<div class="row justify-content-center">
-					<div class="col-xl-6 col-lg-8 col-md-10">
-						<i class="fas fa-quote-left f-30 color-gray"></i>
-						<div class="mt-35 mb-45 f-22 text-adaptive">You can decide whether to create your site using UI 
-							Kit blocks or samples. The blocks can merge 
-							together in various combinations.
-						</div>
-						<img src="i/testimonial_2_img.jpg" srcset="i/testimonial_2_img@2x.jpg 2x" alt="" class="w-120 h-120 radius_full" />
-						<div class="mt-20 f-18 medium">Maria Bargeman</div>
-						<div class="f-14 semibold color-heading text-uppercase sp-20">Social Group</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Content 30 -->
-		<section class="pt-105 pb-70 bg-light text-center content_30">
-			<div class="container px-xl-0">
-				<div class="row justify-content-center">
-					<h2 class="col-lg-9 small">Trusted by over 500 great businesses</h2>
-					<div class="col-lg-8 col-md-10 mt-15 mb-50 f-18 medium op-7 color-heading text-adaptive">					<div>
-Big companies and thousands of freelancers trust in our apps, you could be part of our community too.
-					</div>
-					</div>
+				<div class="row justify-content-center mb-50">
+					<h2 class="col-lg-9 small">Our Team</h2>
 				</div>
 				<div class="row justify-content-center">
 					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_1.png" srcset="i/content_30_logo_1@2x.png 2x" alt="" class="img-fluid" />
-						</div>
+						<img src="i/rachel_photo.jpg" alt="" class="w-200 h-200 radius_full" />
+						<div class="mt-20 f-18 medium">Rachel Naidich</div>
+						<div class="f-14 semibold color-heading text-uppercase sp-20">Computer Science</div>
 					</div>
 					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_2.png" srcset="i/content_30_logo_2@2x.png 2x" alt="" class="img-fluid" />
-						</div>
+						<img src="i/testimonial_2_img.jpg" alt="" class="w-200 h-200 radius_full" />
+						<div class="mt-20 f-18 medium">Chloe Huang</div>
+						<div class="f-14 semibold color-heading text-uppercase sp-20">Product Design</div>
 					</div>
 					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_3.png" srcset="i/content_30_logo_3@2x.png 2x" alt="" class="img-fluid" />
-						</div>
+						<img src="i/shimea_photo.jpg" alt="" class="w-200 h-200 radius_full" />
+						<div class="mt-20 f-18 medium">Shimea Bridgewater</div>
+						<div class="f-14 semibold color-heading text-uppercase sp-20">Computer Science</div>
 					</div>
 					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_4.png" srcset="i/content_30_logo_4@2x.png 2x" alt="" class="img-fluid" />
-						</div>
-					</div>
-					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_5.png" srcset="i/content_30_logo_5@2x.png 2x" alt="" class="img-fluid" />
-						</div>
-					</div>
-					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_6.png" srcset="i/content_30_logo_6@2x.png 2x" alt="" class="img-fluid" />
-						</div>
-					</div>
-					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_7.png" srcset="i/content_30_logo_7@2x.png 2x" alt="" class="img-fluid" />
-						</div>
-					</div>
-					<div class="mb-30 col-lg-3 col-md-5 col-sm-6">
-						<div class="d-flex justify-content-center align-items-center block h-160 mw-270 mx-auto radius10">
-							<img src="i/content_30_logo_8.png" srcset="i/content_30_logo_8@2x.png 2x" alt="" class="img-fluid" />
-						</div>
+						<img src="i/melinda_photo.png" alt="" class="w-200 h-200 radius_full" />
+						<div class="mt-20 f-18 medium">Melinda Gong</div>
+						<div class="f-14 semibold color-heading text-uppercase sp-20">Computer Science</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<!-- Application 32 -->
-		<section class="pt-100 bg-dark application_32">
-			<div class="container px-xl-0">
-				<img src="i/application_32_img.png" srcset="i/application_32_img@2x.png 2x" alt="" class="img-fluid" />
-			</div>
-		</section>
-
-		<!-- Contact 2 -->
-		<section class="pt-80 pb-100 bg-light text-center contact_2">
-			<div class="container px-xl-0">
-				<form action="form-handler.php" method="post">
-					<div class="row justify-content-center">
-						<div class="col-xl-6 col-lg-8 col-md-10">
-							<div class="f-14 semibold text-uppercase sp-20 color-heading">Get Started</div>
-							<h2 class="mt-20 mb-40 small">Get in Touch with Us</h2>
-							<div>
-								<textarea name="message" placeholder="Your message" required="required" class="input mb-30 w-full lg radius10 border-gray focus-action-1 color-heading placeholder-heading text-left"></textarea>
-							</div>
-						</div>
-						<div class="col-12">
-						</div>
-						<div class="col-xl-4 col-lg-5 col-md-6 col-sm-7">
-							<input type="email" name="email" placeholder="Your email" required="required" class="input mb-30 w-full lg border-gray focus-action-1 color-heading placeholder-heading text-center text-sm-left" />
-						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-							<button class="btn mb-30 lg w-full action-1">Send</button>
-						</div>
-					</div>
-				</form>
-				<div class="row justify-content-center">
-					<div class="col-xl-1">
-					</div>
-					<div class="col-xl-3 col-md-4 col-sm-8 mt-50">
-						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">New York, NY</div>
-						<div class="color-heading text-adaptive">
-							62 West 55th Street, Suite 302 
-							New York, NY, 10230
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-8 mt-50">
-						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">San Francisco, CA</div>
-						<div class="color-heading text-adaptive">
-							560 Judah St &amp; 15th Ave, Apt. 5 <br>
-							San Francisco, CA, 230903
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-4 col-sm-8 mt-50">
-						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">Dubai</div>
-						<div class="color-heading text-adaptive">
-							U237-02, Gold Tower, Jumeirah 
-							Lakes Towers, Dubai, UAE
-						</div>
-					</div>
-					<div class="col-xl-1">
-					</div>
-				</div>
-			</div>
-		</section>
-
+	
 		<!-- Footer 11 -->
 		<footer class="pt-45 pb-45 bg-dark color-white text-center footer_11">
 			<div class="container px-xl-0">
 				<div class="row align-items-center">
-					<div class="mb-20 mb-lg-0 col-lg-3">
-						<a href="#" class="link logo color-white">Startup</a>
-					</div>
-					<div class="col-lg-9 text-lg-right">
-						<a href="#" class="link color-white mr-10">Privacy Policy</a>
-						<a href="#" class="link color-white mx-10">Terms</a>
-						<div class="d-inline-block socials">
-							<a href="#" class="link color-white mx-10">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a href="#" class="link color-white mx-10">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a href="#" class="link color-white ml-10">
-								<i class="fab fa-google-plus-g"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="mt-45 mb-45 hr h-2 bg-white op-3">
-					</div>
-				</div>
-				<div class="row">
-					<div class="mb-20 mb-lg-0 col-lg-7">
-						<a href="#" class="link color-white mr-10">Overview</a>
-						<a href="#" class="link color-white mx-10">Features</a>
-						<a href="#" class="link color-white mx-10">Video</a>
-						<a href="#" class="link color-white mx-10">About Us</a>
-						<a href="#" class="link color-white mx-10">Blog</a>
-						<a href="#" class="link color-white ml-10">Contacts</a>
+					<div class="mb-20 mb-lg-0 col-lg-7 text-lg-left">
+						<img src="i/metagym_logo.png" />
 					</div>
 					<div class="col-lg-5 text-lg-right">
-						<div class="text-adaptive">© 2020 Designmodo. All rights reserved.
-						</div>
+						<div class="text-adaptive">CS 147 Winter 2022</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 
-		<!-- forms alerts -->
-		<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			Thanks for your message!
-		</div>
-		<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			Please, fill in required fields.
-		</div>
-		<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
-		</div>
 
 		<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
 		<!--
